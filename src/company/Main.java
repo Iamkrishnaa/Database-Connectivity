@@ -1,8 +1,5 @@
 package company;
-/**
- * Author : Krishna Adhikari
- * Copyright : Apache .0
- * */
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
