@@ -7,6 +7,7 @@ import java.awt.event.ActionListener;
 import java.sql.ResultSet;
 /**
  * Author : Krishna Adhikari
+ * Project-Name: Database Connectivity using java and mySql
  * */
 public class Main implements ActionListener {
     JFrame frame;
