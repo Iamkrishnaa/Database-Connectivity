@@ -9,9 +9,9 @@ public class Conn {
     public Statement statement;
 
     public Conn(){
-        String userName = "root";
-        String pass = "Welcome123";
-        String url = "jdbc:mysql://localhost:3306/forkhaki";
+        String userName = "root"; // username of database
+        String pass = "Welcome123"; // password of database
+        String url = "jdbc:mysql://localhost:3306/forkhaki"; //connection link to database/database_name
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             connection = DriverManager.getConnection(url,userName,pass);
